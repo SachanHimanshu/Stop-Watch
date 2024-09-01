@@ -1,0 +1,44 @@
+
+#timer {
+  width: 460px;
+  font-size: 70px;
+  background-color:rgb(0, 0, 0, 0.754);
+  color: rgb(50, 84, 205);
+  padding: 35px;
+  border-radius: 20px;
+}
+#labels {
+  margin-top: -25px;
+  z-index: 2;
+  color: rgb(50, 200, 205);
+  font-size: 15px;
+}
+#hh {margin-left: 45px;}
+#mm {margin-left: 70px;}
+#ss {margin-left: 60px;}
+#ms {margin-left: 35px;}
+
+#controls {
+  margin-left:150px;
+  margin-top: 30px;
+}
+
+button {
+  width: 100px;
+  height: 40px;
+  float: left;
+  margin-left: 50px;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #888888;
+}
+#go    { background-color: rgb(50, 205, 151); }
+
+#stop  { background-color: rgb(208, 0, 255);  display: none; }
+
+#clear { background-color: rgb(123, 255, 0); display: none;}
+
+body, button {
+  font-family: 'Courier';
+}
